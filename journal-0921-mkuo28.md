@@ -1,0 +1,5 @@
+What does try/except let your program do that it couldn't do before?
+Try/except allows your program to intercept runtime errors before they cause an unexpected shutdown. Instead of crashing, the code can handle the issue gracefully, recover control, and prompt the user or run fallback logic. This kepps your program active and maintains its overall stete.
+Which is worse in a real program: a clean error message, or a crash? Why?
+A crash is far worse because it forcibly terminates the programs, often resulting in lost user data or entire system outages. A clean error message keeps the application running while cleary informing the user how to fix the problem. It also allow developers to log issues safely without exposing vulnerable system details.
+Using input validation and type conversion helps prevent bad data from causing unexpected crashes in our programs.
